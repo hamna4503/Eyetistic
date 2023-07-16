@@ -1,0 +1,69 @@
+.main-container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    overflow:hidden;
+    position: relative;
+}
+
+.main-container video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+.button {
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    width: 170px;
+    height: 50px;
+    padding: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    background: linear-gradient(to right, rgb(102, 1, 4), rgb(86, 1, 1));
+    box-shadow: 0 0 0.3px rgb(54, 53, 53);
+    color: white;
+    overflow-y: hidden;
+
+}
+
+
+
+.main-cover .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main-cover .text h1 {
+ 
+    font-size: 70px;
+    line-height: 70px;
+    width: 800px;
+    font-family: pyxidium quick;
+    background: linear-gradient(to right, white, rgb(183, 230, 202));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+
+}
+
+.main-cover .text p {
+    color: white;
+    width: 600px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}

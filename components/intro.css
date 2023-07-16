@@ -1,0 +1,231 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: auto;
+} */
+
+.intro_container {
+    margin: 60px auto;
+    width: 400px;
+    height: 500px;
+    border: 1px solid rgb(111, 65, 143);
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgb(111, 65, 143), -5px -5px 8px rgb(96, 30, 150);
+    color: #e7e7e7;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    /* z-index:1; */
+
+}
+.intro_container:hover{
+        background-color: #3f21686c;
+
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+    padding: 23px auto;
+    position: relative;
+}
+
+.title {
+    line-height: 64px;
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 34px;
+    padding-top: 10px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: #e7e7e7;
+}
+
+#email,
+#password {
+    width: 100%;
+    padding: 10px;
+    padding-left: 36px;
+    /* padding-bottom:5px; */
+    font-size: 24px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid rgb(135, 75, 177);
+    margin: 20px auto;
+    color: #e7e7e7;
+}
+.login_form i {
+    position: absolute;
+    font-size: 25px;
+    height: 100%;
+
+    margin-top: 32px;
+    margin-left: 10px;
+    color: #2e5d9bde;
+
+
+}
+
+#Forgot_password {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px auto;
+    padding-left: 10px;
+    margin: 5px auto;
+    color: #ffffff;
+}
+
+.intro_button {
+    display: block;
+    width: 250px;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    margin-top: 26px;
+    background-color: rgba(56, 18, 92, 0.733);
+    padding: 10px;
+    color: #e7e7e7;
+    border-radius: 20px;
+
+}
+.intro_button:hover {
+    background-color:rgb(111, 65, 143);
+}
+
+.already {
+    text-align: center;
+    margin: 10px auto;
+    color: #e7e7e7;
+    font-size: 20px;
+}
+
+.already a {
+    text-decoration: none;
+    color: rgb(111, 65, 143);
+}
+
+.already a:hover,
+#Forgot_password:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:405px) {
+    .intro_container {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:306px) {
+    .intro_container {
+        width: 270px;
+    }
+}
+#signup_email,#signup_password,#signup_name,#DOB{
+    width: 100%;
+    padding-left: 36px;
+    font-size: 21px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid lightgray;
+    margin: 15px auto;
+    color:#e7e7e7;
+}
+#signup_email::placeholder,#signup_password::placeholder,#signup_name::placeholder,#email::placeholder,
+#password::placeholder,#DOB::placeholder{
+    color:#e7e7e7;
+}
+#forgot_email{
+    width:90%;
+    margin-left:32px;
+    margin-top:15px;
+    height:40px;
+    font-size:22px;
+    color:#e7e7e7;
+    background-color: transparent;
+    outline:none;
+    border:none;
+    border-bottom:3px solid rgb(111, 65, 143);
+}
+#forgot_email::placeholder{
+    color:#e7e7e7;
+}
+.forgot_form .row i{
+    font-size:22px;
+    margin-top:24px;
+    color:#47325a;
+    position:absolute;
+}
+.forgot_form a{
+    text-decoration: none;
+    display:block;
+    width:250px;
+    font-size: 20px;
+    text-align: center;
+    margin:auto;
+    margin-top:46px;
+    background-color: rgb(111, 65, 143);
+    border:2px solid purple;
+    border-radius: 13px;
+    padding:8px;
+    color:#e7e7e7;
+}
+#forgot_pswd_describe{
+    font-size:20px;
+   margin:20px auto;
+   text-align:justify;
+
+}
+#forgot_code{
+    width:90%;
+    margin-left:32px;
+    margin-top:15px;
+    height:40px;
+    font-size:22px;
+    color:#e7e7e7;
+    background-color: transparent;
+    outline:none;
+    border:none;
+    border-bottom:3px solid rgb(111, 65, 143);
+}
+#forgot_code::placeholder{
+    color:#e7e7e7;
+}
+.forgot_form .row i{
+    width:37px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:4px;
+    color:#47325a;
+    position:absolute;
+}
+#submit_code{
+    display:block;
+    width:250px;
+    font-size: 20px;
+    text-align: center;
+    margin:auto;
+    margin-top:26px;
+    background-color: rgb(111, 65, 143);
+    border-radius: 13px;
+    padding:8px;
+    color:#e7e7e7;
+}
+#forgot_pswd_describe2{
+    font-size:20px;
+   margin:20px auto;
+}
+#myVideo{
+    height:100vh;
+    width:100vw;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}

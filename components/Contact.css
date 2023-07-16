@@ -1,0 +1,235 @@
+.ReachUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+    text-align: center;
+    width:100vw;
+    background-color: var(--blue);
+    gap:15px;
+    padding: 60px 0px 40px;
+}
+
+.ReachUs h1, #content h1{
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--lightgreen);
+}
+
+#reachdivs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width:20vw;
+    gap:5px;
+    padding: 10px;
+}
+
+.info div{
+    font-size: 16px;
+}
+
+.icons{
+    display: flex;
+    gap:50px;
+    padding: 50px 0px;
+    width:100vw;
+    justify-content: center;
+    background-color: var(--bluebg);
+}
+
+.contact-head{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    width:100vw;
+    padding: 50px 17vw;
+    background-color: var(--blue);
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:15px;
+}
+
+#content p{
+    color: var(--skyblue);
+    font-weight: 400;
+    width:fit-content;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 16px;
+    width:30vw;
+    padding: 10px 0px;
+    background-color: var(--white);
+    box-shadow:  0px 5px 10px var(--blue);
+}
+
+.contact-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width:80%;
+    padding: 20px 20px;
+    border-radius: 6px;
+}
+
+.checkOutInput{
+    color: var(--blue);
+    outline: none;
+    border:none;
+    border-bottom: 2px solid var(--lightgreen);
+    padding: 5px;
+    width: 100%;
+    height:4vh;
+    font-size: 16px;
+    overflow-y: hidden;
+
+}
+
+button{
+    margin-top: 15px;
+    width: 100%;
+    padding: 4px 10px;
+    background-color:var(--blue);
+    color:var(--white);
+    border: none;
+    border-radius: 4px;
+    overflow-y: hidden;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:var(--iceblue);
+    overflow-y: hidden;
+
+}
+
+
+.faq{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    padding:40px 0px;
+    width:100vw;
+    background-color: var(--blue);
+}
+
+#FAQS h1{
+    padding-top:3%;
+    width:min-content;
+}
+
+#FAQS h3{
+    font-weight: 500;
+    color:var(--lightgreen);
+}
+
+#faq-ques{
+    width:500px;
+}
+
+.btn{
+    width:fit-content;
+    margin: 0% 2%; 
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#faq-ques p{
+    padding-bottom: 8px;
+    font-weight: 500;
+    color: var(--lightgreen);
+}
+
+#faq-ques span{
+    cursor: pointer;
+}
+
+#faq-ques div{
+    color:var(--lightblue);
+}
+
+#faq-ques ul{
+    list-style: none;
+}
+
+#faq-ques ul li{
+    padding: 6px 0px;
+    color: var(--skyblue);
+    /* font-weight: 500; */
+}
+
+#faq-img{
+    background-image: url(../images/shop/map.png);
+    width:70vw;
+    height:30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    border: 1.5px dashed var(--lightgreen);
+    box-shadow: var(--box-shadow);
+}
+
+#img{
+    padding:40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    background-color: var(--bluebg);
+}
+
+
+
+.error {
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+    border-radius: 3px;
+    color: #fff;
+    margin: auto;
+    padding: 1rem;
+    width: 20rem;
+}
+.CheckoutButton{
+    background-color: rgb(2, 2, 39);
+    display: inline;
+    margin:none;
+    width:150px;
+    padding: none;
+    padding:4.5px;
+    margin-left:5px;
+    color:white;
+    /* font-size: 14px; */
+    /* padding:20px; */
+}
+#LinkButton{
+    display:inline;
+    padding:8px;
+    /* font-we */
+}

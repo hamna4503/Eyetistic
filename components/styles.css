@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Carattere&family=Dosis&family=Great+Vibes&family=Lovers+Quarrel&family=Major+Mono+Display&family=Manrope&family=Mea+Culpa&family=Monoton&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,200&family=PT+Sans&family=Passions+Conflict&family=Questrial&family=Righteous&display=swap');
+
+:root {
+    --box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
+    --blue:#051730;
+    --lightblue:#8A8FFF;
+    --skyblue:#d5d9f8;
+    --lightgreen:#9ed832;
+    --iceblue:#16558F;
+    --mildskyblue:#bdc3e1de;
+    --bluebg:#051730fb;
+    --white: #fff;
+    --iceblueshadow: 2px 2px 4px #458a9f;
+    --blueshadow: 2px 2px 4px var(--blue);
+    --gradient:linear-gradient(to bottom right, var(--blue), var(--lightblue));
+    --questrial:'Questrial', sans-serif;
+    --passion:'Passions Conflict', cursive;;
+    --nunito:'Nunito Sans', sans-serif;
+    --titleAudio:'Audiowide', cursive;
+    --tagLovers:'Lovers Quarrel', cursive;
+    --righteous:'Righteous', cursive;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--skyblue);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--nunito);
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--skyblue);
+    text-shadow: 2px 1px 2px var(--lightblue);
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--lightgreen);
+    padding-bottom: 10px;
+}
+
+
+.scroll {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    color:var(--iceblue);
+    z-index: 999;
+}
+
+/* Header */
+.HeaderDiv{
+    display: flex;
+    width:100vw;
+    height:80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeaderDiv h1{
+    font-size: 70px;
+    font-family: var(--righteous);
+    letter-spacing: 3px;
+    color: var(--skyblue);
+    font-weight: 100;
+    text-shadow: 2px 1px 2px var(--lightblue);
+}
+
+.header{
+    width:100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+    /* padding-left:10vw; */
+}
+
+.header h1, .header h1 span{
+    font-size: 55px;
+    font-family: var(--righteous);
+    letter-spacing: 3px;
+    color: var(--white);
+    font-weight: 100;
+    text-shadow: 2px 1px 2px var(--blue);
+}
+
+.header p, .header p span{
+    width:50vw;
+    color: var(--skyblue);
+    font-weight: 500;
+    font-size: 19px;
+    text-shadow: 1px 1px var(--blue);
+}
+
+.header button{
+    width: max-content;
+    padding: 5px 20px;
+}
+
